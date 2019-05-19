@@ -1,7 +1,6 @@
 .BuildControl {
     display: flex;
-    /* justify-content: space-between; */
-    align-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 5px 0;
 }
@@ -16,6 +15,7 @@
     cursor: pointer;
     outline: none;
 }
+
 
 .BuildControl button:disabled {
     background-color: #AC9980;
